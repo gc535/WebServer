@@ -4,6 +4,9 @@
 namespace WebFramework 
 {
 
+// define server types
+typedef boost::asio::ip::tcp::socket HTTP;
+
 // Request struct contains the request header, data etc.
 struct Request 
 {
