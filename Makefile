@@ -8,9 +8,9 @@
 CXX = g++
 EXEC_HTTP = server_http
  
-SOURCE_HTTP = main_http.cpp
+SOURCE_HTTP := main.cpp ServerBase.cpp
  
-OBJECTS_HTTP = main_http.o
+#OBJECTS_HTTP = main_http.o
  
 # 开启编译器 O3 优化, pthread 启用多线程支持
 LDFLAGS_COMMON = -std=c++11 -O3 -pthread -lboost_system
