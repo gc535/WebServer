@@ -6,6 +6,7 @@ namespace WebFramework
 
 // define server types
 typedef boost::asio::ip::tcp::socket HTTP;
+typedef boost::asio::ssl::stream<boost::asio::ip::tcp::socket> HTTPS;
 
 // Request struct contains the request header, data etc.
 struct Request 

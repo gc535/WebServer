@@ -63,7 +63,6 @@ public:
         {
             t.join();
         }
-        std::cout<<"exit start"<<std::endl;
     }
 
 protected:
@@ -120,7 +119,6 @@ protected:
             }
 
         });
-        std::cout<<"exit p_n_r"<<std::endl;
     }
 
     // response to the request
@@ -157,7 +155,6 @@ protected:
             }
 
         }
-        std::cout<<"exit respond"<<std::endl;
     }
 
 
